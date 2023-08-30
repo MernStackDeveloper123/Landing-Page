@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Montserrat&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content h1,
+p {
+  color: rgb(37, 209, 201);
+}
+.content h1 {
+  margin-bottom: 2rem;
+}
+button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(37, 209, 201);
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(37, 209, 201);
+  color: white;
+}
+/**************************************Section 1 styling*********************************************/
+.section-a {
+  padding: 1rem 2rem;
+  background-color: rgb(37, 209, 201);
+}
+.section-a p {
+  color: #fff;
+  text-align: center;
+}
+/**************************************Section 2 styling*********************************************/
+.section-b {
+  background-color: #ddd;
+  padding: 1rem 2rem;
+}
+.section-b p {
+  color: rgb(37, 209, 201);
+  text-align: center;
+}
+.maincontianer {
+  display: flex;
+}
+
+.bg-brown {
+  background-color: rgb(37, 209, 201);
+}
+.text-white {
+  color: #fff;
+}
+#box1 {
+  padding: 1rem;
+}
+#box2 {
+  background-color: #ddd;
+  padding: 1rem;
+  text-align: left;
+}
+#box2 p {
+  color: rgb(37, 209, 201);
+}
+#box3 {
+  background-color: rgb(37, 209, 201);
+  padding: 1rem;
+}
+#box3 p {
+  color: #fff;
+}
